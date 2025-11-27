@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StudyToolZone</title>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(120deg, #000000, #0b1a3a, #8b0000);
+        color: white;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background: rgba(0,0,0,0.6);
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(5px);
+    }
+    header .logo {
+        font-size: 28px;
+        font-weight: bold;
+        color: #ff3333;
+    }
+    nav a {
+        margin-left: 20px;
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    .hero {
+        text-align: center;
+        padding: 120px 20px;
+    }
+    .hero h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+    }
+    .section {
+        padding: 60px 20px;
+        text-align: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 30px;
+    }
+    .card {
+        background: rgba(255,255,255,0.1);
+        padding: 20px;
+        border-radius: 12px;
+        backdrop-filter: blur(6px);
+        transition: 0.3s;
+    }
+    .card:hover {
+        transform: translateY(-5px);
+        background: rgba(255,255,255,0.2);
+    }
+    footer {
+        background: rgba(0,0,0,0.8);
+        padding: 40px 20px;
+        text-align: center;
+        margin-top: 40px;
+    }
+    footer a {
+        display:block;
+        color: #ccc;
+        margin: 5px 0;
+        text-decoration: none;
+    }
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">StudyToolZone</div>
+    <nav>
+        <a href="#notes">Notes</a>
+        <a href="#calculators">Calculators</a>
+        <a href="#converter">Converters</a>
+        <a href="#ai">AI Tools</a>
+        <a href="#utility">Utility</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Welcome to StudyToolZone</h1>
+    <p>Your Complete Study + Tool Platform</p>
+</section>
+
+<section id="notes" class="section">
+    <h2>Engineering Notes | Class 6–12 Notes | PYQ Download</h2>
+    <div class="grid">
+        <div class="card">Engineering Notes</div>
+        <div class="card">Class 6–12 Notes</div>
+        <div class="card">Class 12 Previous Year Papers</div>
+        <div class="card">Search Any Topic → Auto Solution Tool</div>
+    </div>
+</section>
+
+<section id="calculators" class="section">
+    <h2>Calculators</h2>
+    <div class="grid">
+        <div class="card">GST Calculator</div>
+        <div class="card">RD Calculator</div>
+        <div class="card">Salary Calculator</div>
+        <div class="card">Calorie Calculator</div>
+        <div class="card">Body Fat Calculator</div>
+        <div class="card">Height Calculator</div>
+        <div class="card">Weight Calculator</div>
+        <div class="card">GPA Calculator</div>
+        <div class="card">Grade Calculator</div>
+    </div>
+</section>
+
+<section id="converter" class="section">
+    <h2>Converters</h2>
+    <div class="grid">
+        <div class="card">Image Compressor</div>
+        <div class="card">Split PDF</div>
+        <div class="card">Merge PDF</div>
+        <div class="card">Image Resizer</div>
+    </div>
+</section>
+
+<section id="ai" class="section">
+    <h2>AI Tools</h2>
+    <div class="grid">
+        <div class="card">AI Background Remover</div>
+        <div class="card">AI Image Generator</div>
+        <div class="card">AI Question Generator</div>
+    </div>
+</section>
+
+<section id="utility" class="section">
+    <h2>Utility Tools</h2>
+    <div class="grid">
+        <div class="card">Grammar Checker</div>
+        <div class="card">Text Summarizer</div>
+    </div>
+</section>
+
+<footer>
+    <a href="mailto:studytoolzone@gmail.com">Contact: studytoolzone@gmail.com</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms of Use</a>
+    <a href="#">About Us</a>
+    <a href="#">Trust Center</a>
+    <p>© 2025 StudyToolZone. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
